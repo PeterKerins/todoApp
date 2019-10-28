@@ -10,11 +10,15 @@ function App() {
     },
     {
       task: 'Make it Pretty',
-      isCompleted: false,
+      isCompleted: true,
     },
     {
-      task: 'Prevent being able to be completed if task is non existent',
+      task: 'Prevent empty tasks being marked complete',
       isCompleted: true,
+    },
+    {
+      task: 'Do your own thing',
+      isCompleted: false,
     },
   ])
 
